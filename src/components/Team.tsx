@@ -1,6 +1,7 @@
 import React from 'react';
 import { ShieldCheck, Medal } from 'lucide-react';
 import { motion } from 'motion/react';
+import aboutteam from '../../assets/about.png'; // <-- HIER DEIN LOKALES BILD IMPORTIERT
 
 export default function Team() {
   return (
@@ -18,7 +19,7 @@ export default function Team() {
           <div className="absolute left-0 top-0 w-[4px] h-full bg-brand-red z-10 hidden md:block -ml-5 rounded-full" />
           <div className="aspect-[3/4] rounded-xl overflow-hidden bg-[#131313] border border-white/5 shadow-2xl relative">
             <img
-              src="https://lh3.googleusercontent.com/aida/AP1WRLtG7jij6PFiV6KgzhnoV4vIoodzm4THvjNuSdax4DKDVweLtJDhPo2XtGj6XAdeQElYu6qwxyJmEakRJgb_4qQV0eGQ2L3v4FxsyiB-zl-CKbN66dBNkKb11zQjD9eahYwlOL0tJkW6PPfH1YbN6r4Ddi247BH5RY7NXWaCKlIkhiVDwLAIg3-Ec_bUyCnXoKFrYGEpoxDlY9_4e-KSAr4JK1rzeEy1v86buoHeRBzY4XBIxKBg384A"
+              src={aboutteam} // <-- HIER STEHT JETZT DEIN IMPORTIERTES BILD STATT DES LINKS
               alt="Magic Logistik Team"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover grayscale contrast-[1.08] transition-all duration-750 group-hover:scale-102 group-hover:grayscale-0"
