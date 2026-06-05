@@ -1,25 +1,28 @@
 import { ServiceItem, FunnelOption, SizeOption, ProcessStep, GalleryItem, TestimonialItem, FaqItem } from './types';
+import imgLeistung1 from '../assets/privatumzug.png';
+import imgLeistung2 from '../assets/firmenumzug.png';
+import imgLeistung3 from '../assets/lagerung.png';
 
 export const SERVICES: ServiceItem[] = [
   {
     id: 'privat',
     title: 'Privatumzug',
     description: 'Sorgfältige Planung und diskrete Durchführung für Ihren Wohnungswechsel auf höchstem Niveau.',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDoFyhqM9zOsAUiox99rBgkuZC4UxY2MF3Oh9pk7gl2WFppNE9wOZXOx5e_-QH5iqutvSGD2T0wckLhWeQYjkYa9e29AVwjF1q63Cj5q3GDv_OhtVcnJmymtvKNowyQVGv5LiPcVgICgKeC2aroDV87YpQ6N-H0Qggu4rlYeRSJHRBLiLDCoHHuWm5f0KHC8H9Tjfh9SwCRm8hbmCEUuEVHbnv9Jcdg6cH0AqesJOAAaauXr8eOQ9jsyA6DWDkhnXOpXUi4_m4Bg',
+    image: imgLeistung1,
     colSpan: 'md:col-span-3'
   },
   {
     id: 'firma',
     title: 'Firmenumzug',
     description: 'Minimale Ausfallzeiten durch präzise Taktung und IT-sicheren Transport.',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAPtgIgTNmJxTfWdTP9e7eFFYXVZPNpdGUTQ2fZZg6fBWyc4QdWZ0tD-pogRGMgsWzEwY8d4Kg-xGQhh-mt6zApaVG5zzGsZrMCw23Xf3JNpADMLP87qloDwYN2ZYrAj4x9ktp3VhfDfij4Rw8E6eQKqqVcgmrcjCYZDLpXiMTuq7-yZZBic5GAvF8ZHA1-ZHElvkLdM_PuAQTXw91DGAgM57zebvFGusRYmgF0W0__khStCawIIzEKsHjCSEIMBKmQdnuoIoVIRw',
+    image: imgLeistung2,
     colSpan: 'md:col-span-2'
   },
   {
     id: 'lager',
     title: 'Premium Einlagerung',
     description: 'Klimatisierte, hochsichere Depots für Ihr wertvolles Inventar. Flexibel und jederzeit zugänglich.',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDxeJLSczzJxAJWkfVdf2rvsTlDcSEST7XaKLBi6IK_F2W7YKhDgcdn_EEZZMErdYgPuiduV9CKLUuVRNeZPefusG5rbqB-JpX6ivG8rHnW4cYHS-NSbHeYoaj1RpWewomRw6YHAAYhuDeh895bOJJXzbonPKpYF2QAkYBZs8eovkIeCQ6PzKjWaiuffzkLdIpjK4buh-7aMXHQpfpaOGOnUmn59SpqUgyGj8kcZhlV2p3SVCM_UECKyWawsE9dloxIuKNfQ4HD-g',
+    image: imgLeistung3,
     colSpan: 'md:col-span-5'
   }
 ];
