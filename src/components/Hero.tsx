@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { motion } from 'motion/react';
+import heroBg from '../assets/hero-b.png'; // <-- HIER DEIN LOKALES BILD IMPORTIERT
 
 interface HeroProps {
   onQuoteClick: () => void;
@@ -63,7 +64,8 @@ export default function Hero({ onQuoteClick, onServicesClick }: HeroProps) {
       <div 
         className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-102"
         style={{
-          backgroundImage: `url("https://lh3.googleusercontent.com/aida-public/AB6AXuDqS43ZWvrF9eRk0-1i_S4do5V3jsrOamQxq7YzihOSz6vyLbo0KEThyrNGN0yCP7GGWnlkBhaAOPDJpn0-pL2w2sMhRVukIcxZosQWsOufldlFIUKa4pIxk4uTebrDIKDWFNYqHcaT1sEjVKnZuFwSUnNB0hCEf3MKdnM5hrzBeljrSqpD5iRcDXYROvvPscmwEvuRTNg2IFNHsuVKwu53IHC1Hjrd7xqMnoRogh_-1TDGRyMvyam_LDpu9_X9reXoxC4D-EdX_g")`
+          backgroundImage: `url(${heroBg})` // <-- HIER WIRD ES JETZT AUTOMATISCH GELADEN
+
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-[#131313] via-[#131313]/60 to-[#131313]/30" />
