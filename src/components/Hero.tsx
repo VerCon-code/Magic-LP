@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { motion } from 'motion/react';
-import heroBg from '../assets/hero-b.png'; // <-- HIER DEIN LOKALES BILD IMPORTIERT
+import heroBg from '../../assets/hero-b.png'; // <-- HIER DEIN LOKALES BILD IMPORTIERT
 
 interface HeroProps {
   onQuoteClick: () => void;
