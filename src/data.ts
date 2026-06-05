@@ -3,6 +3,10 @@ import imgLeistung1 from '../assets/privatumzug.png';
 import imgLeistung2 from '../assets/firmenumzug.png';
 import imgLeistung3 from '../assets/lagerung.png';
 
+import imgig1 from '../assets/ig1.png';
+import imgig2 from '../assets/ig2.png';
+import imgig3 from '../assets/ig3.png';
+
 export const SERVICES: ServiceItem[] = [
   {
     id: 'privat',
@@ -104,17 +108,17 @@ export const PROCESS_STEPS: ProcessStep[] = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'g1',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBBE2FoywAzGqFZzfUBqCxzFvL-Xk8ypQ2P2iXgf6W-ZCsqcvY5iF7QWWqr_hktgs1uF2kFJkKtqvPPlVOFBOWnDeqcaEsif18fxKXbXapvmNGq1zhclw6oRC3y8pMOAiAEqqQr-bF7Xl1NS8msPs55tAEXLlj3l0zoA1MUsM-MEUhGq-sCs-qxTsWcyLKuOz7L19k5XmWP5ln6dVUfA1Aq8bHX0TU0AwqqA8qcEt6MKYtDZ8CzyH5ej0zeJZNLUeUWWHwovVRLnA',
+    image: imgig1,
     title: 'Dienstleistungsfahrzeuge am Morgen'
   },
   {
     id: 'g2',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAMc4cATjdqDWWd_Cm8v7W73RJcgdrh4g7XgRhuWsA51-KaJqLHE0TUl_RZX1hGZaaD0IjtN5wRMwNrjID_prE8qJYnF_IaQzUkBS43P0zBuVnAmAo-eEluALPhtaMtUN6JKCOaRB1hFMtc_hV2iB-WishmwQVyo-Rrbs7vIKj9VSpFWPg9JHKOVFGxfzNLngwS1tAM1iqB3uADNM5vUXE9hnQuDlfH0qzQR_B5PxLrzydVcwOFsHG31Wak6mel9Ku6XJCnkikrbQ',
+    image: imgig2,
     title: 'Perfekt gesicherter Wohnungswechsel'
   },
   {
     id: 'g3',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDWxeg28yBuU5PBd67Vpaj6UpB52JjQ3KVFkhG-YoQjFHGBzFbTi3EE37YbOpm28kC0QVSwrepJ0Ki9vMK5cLddNRpEIiuMKfvLCN8sdYfzVSirsVcds92T0KMmWxshJG9babnd2Ysktl7MrLhChs3Zmav4TGIq-nC8jJeOJ4GzXOxWjXkTVpXWXnkXReSv7ClWr_UVRe0e205wwtHe9TvaSy_-gP1pxjsFhdq4YQjTi5-EaON4N9JuW7XoTbY-vTurZLndxKxvlg',
+    image: imgig3,
     title: 'Premium Lagerhäuser & Depots'
   }
 ];
